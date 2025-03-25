@@ -1,0 +1,13 @@
+[deploy]
+  startCommand = "n8n start --tunnel"
+
+[env]
+  PORT = "5678"
+  N8N_PORT = "5678"
+  N8N_HOST = "0.0.0.0"
+  N8N_BASIC_AUTH_ACTIVE = "true"
+  N8N_BASIC_AUTH_USER = "admin"
+  N8N_BASIC_AUTH_PASSWORD = "admin123"
+  GENERIC_TIMEZONE = "Europe/Paris"
+  TZ = "Europe/Paris"
+  N8N_ENCRYPTION_KEY = "Zz0Vd63X2ow6jEbg5NqgML+5FiER72DfN+vY1q4TP0o="
