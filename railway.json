@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "N8N_PORT": "5678",
+      "PORT": "5678"
+    }
+  },
+  "start": {
+    "cmd": "n8n start"
+  }
+}
